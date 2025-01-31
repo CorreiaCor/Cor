@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Sugestão</title>
+</head>
+<body>
+    <h1>Envie sua sugestão</h1>
+    <form action="enviar_sugestao.php" method="POST">
+        <label for="sugestao">Sua sugestão:</label><br>
+        <textarea id="sugestao" name="sugestao" rows="4" cols="50" required></textarea><br><br>
+        <label for="email">Seu e-mail (opcional):</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="submit">Enviar Sugestão</button>
+    </form>
+</body>
+</html>
